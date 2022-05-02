@@ -1,0 +1,16 @@
+query GetAllProducts($country:String,$subcategory:String,$priceRange:Float,$secondRange:Float){
+  getProducts(country:$country,subcategory:$subcategory,priceRange:$priceRange,secondRange:$secondRange){
+    records{
+      _id
+      name
+      description
+      sku
+      price
+      image
+      value
+      subcategory
+      madeCountry
+    }
+    hasMore
+  }
+}

@@ -1,0 +1,19 @@
+query GetOneProduct($_id:String!){
+  getOneProduct(_id:$_id){
+    _id
+    name
+    description
+    price
+    sku
+    value
+    image
+    madeCountry
+    weight
+    purpose
+    subcategory
+    brand
+    brandDesc
+    dateOfEnd
+    numberOfItemsInBox
+  }
+}

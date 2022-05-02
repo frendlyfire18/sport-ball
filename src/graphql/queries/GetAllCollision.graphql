@@ -1,0 +1,13 @@
+query GetAllCollision($word:String){
+  getAllCollision(word:$word){
+    records{
+      _id
+      name
+      price
+      image
+      value
+      subcategory
+      madeCountry
+    }
+  }
+}

@@ -1,0 +1,16 @@
+query GetProductsByCategory($categoryId:String){
+  getProductsByCategory(categoryId:$categoryId){
+    records{
+      _id
+      name
+      price
+      image
+      value
+      subcategory
+      description
+      madeCountry
+      category
+    }
+    hasMore
+  }
+}

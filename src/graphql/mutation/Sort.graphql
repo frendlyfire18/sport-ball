@@ -1,0 +1,12 @@
+mutation UpdateProducts($country:String!){
+  updateProducts(country:$country){
+    records{
+      _id
+      name
+      price
+      image
+      value
+    }
+    hasMore
+  }
+}

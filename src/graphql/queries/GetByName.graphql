@@ -1,0 +1,13 @@
+query GetAllByName($name:String){
+  getByName(name:$name){
+    records{
+      _id
+      name
+      price
+      description
+      sku
+      image
+      value
+    }
+  }
+}
