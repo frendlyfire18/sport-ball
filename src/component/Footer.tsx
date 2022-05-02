@@ -15,14 +15,11 @@ import React, { ReactNode } from 'react';
 const Logo = (props: any) => {
     return (
         <>
-            <Flex><Text fontSize="2xl" fontFamily="monospace" fontWeight="bold">ZOO-LOVE</Text><Image sx={{
-                '@media screen and (max-width: 540px) ':{
-                    width:"15px",
-                    height:"15px"
-                }
-            }} width={"30px"} height={"30px"} src={
-                "/heart.png"
-            }/></Flex>
+            <Flex><Text sx={{
+                color:"hsl(125 100% 54%)",
+                textShadow:"0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em",
+            }} fontSize="2xl" fontFamily="monospace" fontWeight="bold">SPORT-BALL</Text>
+                <Image width={"30px"} height={"30px"} src={"/logo.png"}/></Flex>
         </>
     );
 };
