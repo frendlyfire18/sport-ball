@@ -93,7 +93,7 @@ export default function Footer() {
                     <Logo />
                 </Flex>
                 <Text  pt={6} fontSize={'sm'} textAlign={'center'}>
-                    © 2022 ZOO-LOVE. Все права защищены
+                    © 2022 SPORT-BALL. Все права защищены
                 </Text>
             </Box>
         </Box>
